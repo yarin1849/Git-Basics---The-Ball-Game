@@ -6,7 +6,8 @@ const ball1 = {
 
 function onBallClick(elBall) {
     ball1.size += getRandomInt(20, 60)
-    console.log(ball1.size);
+
+    elBall.style.backgroundColor = getRandomColor()
 
     elBall.style.width = ball1.size + 'px'
     elBall.style.height = ball1.size + 'px'
