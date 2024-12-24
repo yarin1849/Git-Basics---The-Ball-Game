@@ -5,7 +5,7 @@ const ball1 = {
 }
 
 function onBallClick(elBall) {
-    ball1.size += 50
+    ball1.size += getRandomInt(20, 60)
     console.log(ball1.size);
 
     elBall.style.width = ball1.size + 'px'
