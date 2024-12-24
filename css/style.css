@@ -19,4 +19,7 @@ h1 {
     height: 100px;
     justify-self: center;
     place-content: center;
+    place-items: center;
+    font-size: 22px;
+    font-weight: bold;
 }
